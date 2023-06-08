@@ -44,3 +44,27 @@ sudo rm -rf <virtual-environment-name>
 ---
 ## Docker
 ---
+## GitHub
+---
+Cloning latest release
+```
+git clone <reporsity-link>
+```
+Cloning specific release/branch
+```
+git -b <relase-tag> clone <reporsity-link>
+```
+Cloning specific commit
+```
+git clone <reporsity-link>
+```
+```
+cd <reporsity>
+```
+```
+git reset --hard <commit-id>
+```
+Commit Log
+```
+git log
+```
