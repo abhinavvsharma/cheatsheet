@@ -8,13 +8,13 @@ Cheatsheet for frequently used commands
 ## Python
 ### Manage Python Versions
 ```
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 ```
 ```
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
 ```
 ```
-sudo update-alternatives --config python
+sudo update-alternatives --config python3
 ```
 ---
 ## Docker
